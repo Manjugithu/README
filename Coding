@@ -1,0 +1,5 @@
+127.0.0.1:6379>LPUSH Patients:ID <patientID> <firstName> <lastName> <dob> <gender> <dateOfDischarge> <roomNumber>
+127.0.0.1:6379>HSET Patients:MedicalRecords <patientID> <medicalRecords>
+127.0.0.1:6379>SADD Patients: Medicine <patientID> <medicineName> <dosage>
+127.0.0.1:6379>HSET Doctors:Info <doctorID> <firstName>  <specialty> <doctorNumber
+127.0.0.1:6379>LPUSH Doctors:Appointments <doctorID> <patientID> <dateOfAppointment> <time>
