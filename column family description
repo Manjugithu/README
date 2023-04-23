@@ -31,7 +31,7 @@ To delete a particular data in a table,the following syntax is used:
  delete ‘<table name>’, ‘<row>’, ‘<column name >’, ‘<time stamp>’
  
 
-CONCLUSION:
+CONCLUSION
     It can be said that HBase has proved to be a powerful tool over existing Hadoop environments. HBase is a popular NoSQL database with high throughput and low
     latency. HBase garnered developer support from other companies and was adopted by companies for production deployment.
       
