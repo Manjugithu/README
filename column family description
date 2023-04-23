@@ -30,13 +30,7 @@ To delete a particular data in a table,the following syntax is used:
 
  delete ‘<table name>’, ‘<row>’, ‘<column name >’, ‘<time stamp>’
 
-
- ROW                     COLUMN+CELL                     
- 001                 column=doctor details:, timestamp=1679110202044, value=nandhu                                                       
- 002                 column=doctor details:, timestamp=1679110238644, value=merlin                                                       
- 003                 column=doctor details:, timestamp=1679110261538, value=manju                                                        
- 01                  column=doctor details:, timestamp=1679125549161, value=priya                                                    
- 101                 column=patient details:, timestamp=1679110427746, value=suriya                                                      
- 102                 column=patient details:, timestamp=1679110470518, value=sindhu                                                      
- 103                 column=patient details:, timestamp=1679110492187, value=sudhan                                                                                      
- 01                  column=paitent:details:, timestamp=1679133099032, value=hari        
+CONCLUSION:
+    It can be said that HBase has proved to be a powerful tool over existing Hadoop environments. HBase is a popular NoSQL database with high throughput and low
+    latency. HBase garnered developer support from other companies and was adopted by companies for production deployment.
+      
